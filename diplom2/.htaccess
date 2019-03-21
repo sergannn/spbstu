@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteRule profile/(.*)/ profile.php?u=$1
+
+RewriteRule profile/(.*) profile.php?u=$1   
